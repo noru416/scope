@@ -100,12 +100,42 @@ ul, li {
   top: 1px;
   margin-right: 0;
   padding-right: 0;
-} 
+}
+
 @media screen and (min-width: 100em) {
   .app {
     max-width: 100rem;
     margin: 0 auto;
   }
+}
+@media screen and (min-width: 80em) {
+  .main-nav-list-item {
+    margin-right: .625rem;
+    margin-left: .625rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .main-nav-list {
+    padding-left: 7.5rem;
+    padding-right: 1.25rem;
+    font-size: 1rem;
+  }
+  .main-nav-list-item {
+    margin-right: .3125rem;
+    margin-left: .3125rem;
+  }
+  .main-nav-list-item.account, .main-nav-list-item.logout {
+    font-size: .875rem;
+  }
+}
+/* iphone responsive */
+@media (max-width: 767px) {
+  
+}
+
+/* ipad responsive */
+@media (max-width: 1023px) {
+  
 }
 
 .page {
@@ -193,4 +223,14 @@ ul, li {
 
 .main-footer-list li a::after {
   content: '\00a0›';
+}
+
+/* iphone responsive */
+@media (max-width: 767px) {
+
+}
+
+/* ipad responsive */
+@media (max-width: 1023px) {
+
 }
